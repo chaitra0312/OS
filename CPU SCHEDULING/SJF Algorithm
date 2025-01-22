@@ -1,3 +1,4 @@
+//PROGRAM
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
@@ -39,3 +40,27 @@ int main(){
 	printf("\nAverage Turnaround Time --%f",tatavg/n);
 	}
 }
+// OUTPUT
+Enter the number of processes--4
+
+Enter Brust Time for Process0--6
+
+Enter Brust Time for Process1--8
+
+Enter Brust Time for Process2--7
+
+Enter Brust Time for Process3--3
+	 PROCESS 	 BRUST TIME	 WAITING TIME	 TURNAROUND TIME 
+
+	 P0 		 3 		 0 		 3
+ Average Waiting Time -- 7.000000
+Average Turnaround Time --13.000000
+	 P1 		 6 		 3 		 9
+ Average Waiting Time -- 7.000000
+Average Turnaround Time --13.000000
+	 P2 		 7 		 9 		 16
+ Average Waiting Time -- 7.000000
+Average Turnaround Time --13.000000
+	 P3 		 8 		 16 		 24
+ Average Waiting Time -- 7.000000
+Average Turnaround Time --13.000000
